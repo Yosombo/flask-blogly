@@ -1,0 +1,12 @@
+{%extends 'base.html'%} {%block title%} {{user.first_name}} {%endblock%} {%block
+content%}
+<div class="user_profile">
+  <img src="{{user.img_url}}" alt="" />
+  <div class="user_profile_edit">
+    <h2>{{user.get_full_name}}</h2>
+    <a href="/users/{{user.id}}/edit"><button>Edit</button></a>
+    <a href="/users/{{user.id}}/delete"><button>Delete</button></a>
+  </div>
+</div>
+<a href="/"> <button class="main_btn">Go back</button></a>
+{%endblock%}

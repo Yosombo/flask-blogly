@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+h3 {
+  border-bottom: 1px solid black;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  margin-bottom: 15px;
+  font-family: 'Zen Loop', cursive !important;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(107, 107, 107);
+}
+.user_from_div {
+  margin-bottom: 10px;
+}
+
+.user_from_div input {
+  padding: 5px;
+  margin-top: 5px;
+}
+button {
+  padding: 5px 0;
+  width: 80px;
+}
+.user_profile {
+  display: flex;
+}
+.user_profile img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+.user_profile_edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  cursor: auto;
+}
+.content {
+  padding-left: 2rem;
+}
+.main_btn {
+  margin-top: 10px;
+}
